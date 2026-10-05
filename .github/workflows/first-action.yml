@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greeting
-        run: echo "Hello World"
+        run: |
+              echo "Hello World"
+              echo "Hellow World from Git Action with multiline shell commands"
       - name: print good bye
         run: echo "Done - bye!"
